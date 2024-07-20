@@ -15,6 +15,15 @@ namespace WebAPI.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public Result Register(Models.Register.Request registerRequest)
         {
+            if (UsersTMP.Users.Count > 20)
+            {
+                UsersTMP.Users.Clear();
+                return new Result
+                {
+                    Message = "Юзеры сброшены, т.к достигнуто ограничение в 20 юзеров"
+                };
+            }
+
             var guid = Guid.NewGuid();
             UsersTMP.Users.Add(new User
             {
