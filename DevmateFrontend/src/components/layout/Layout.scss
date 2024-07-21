@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 100vh; /* Задает высоту контейнера на весь экран */
+  flex-direction: column;
+}
+.krug-top{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
