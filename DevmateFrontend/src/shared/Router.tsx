@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom';
-import Layout from '../components/layout/Layout';
-import SignIn from '../components/sign-in/SignIn';
-import SignUp from '../components/sign-up/SignUp';
-import NotFound from '../components/not-found/NotFound';
+import Layout from './layout/Layout';
+import SignIn from '../pages/sign-in/SignIn';
+import SignUp from '../pages/sign-up/SignUp';
+import NotFound from '../pages/not-found/NotFound';
 // eslint-disable-next-line react-refresh/only-export-components
 export default createBrowserRouter([
   {

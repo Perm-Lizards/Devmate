@@ -1,11 +1,9 @@
-.container {
+.main-container {
   display: flex;
   align-items: center;
   height: 100vh; /* Задает высоту контейнера на весь экран */
   flex-direction: column;
+  background-color: #dadae3;
 }
-.krug-top{
-  display: flex;
-  align-items: center;
-  height: 100%;
+.footer-container {
 }
