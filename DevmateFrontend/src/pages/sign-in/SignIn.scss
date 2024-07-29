@@ -1,0 +1,37 @@
+.sign-in-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+.already-reg {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 50px;
+}
+.already-reg-link {
+  color: #7141ae;
+  text-decoration: underline;
+}
+.already-reg p {
+  font-size: 1.5rem;
+  height: min-content;
+  margin: 0px;
+}
+.title {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 3rem;
+}
+.button {
+  height: 75px;
+  width: 300px;
+  border: 2px solid #000 !important;
+  border-radius: 15px !important;
+  background-color: #a69eb0 !important;
+  color: #000 !important;
+  font-size: 1.5rem !important;
+  text-transform: unset !important;
+}

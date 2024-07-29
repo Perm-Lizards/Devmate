@@ -4,6 +4,5 @@
   height: 100vh; /* Задает высоту контейнера на весь экран */
   flex-direction: column;
   background-color: #dadae3;
-}
-.footer-container {
+  justify-content: space-between;
 }

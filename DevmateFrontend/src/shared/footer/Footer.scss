@@ -1,0 +1,24 @@
+.footer-container {
+  height: 75px;
+  width: 100%;
+  background-color: #a69eb0;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  border-top: 0.1px inset #d2d0d4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.hidden-corp-name {
+  color: #a69eb0;
+  user-select: none;
+}
+p {
+  margin: 0px;
+}
