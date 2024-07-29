@@ -5,7 +5,7 @@ import { Button } from '@mui/material';
 const SignIn = () => {
   return (
     <div className="sign-in-container">
-      <h1 className="title">Регистрация аккаунта</h1>
+      <h1 className="sign-in-title">Регистрация аккаунта</h1>
       <InputField name="Имя:" />
       <InputField name="Фамилия:" />
       <InputField name="Логин:" />
@@ -16,7 +16,7 @@ const SignIn = () => {
           <p className="already-reg-link"> Войти в аккаунт.</p>
         </a>
       </div>
-      <Button className="button" variant="outlined">
+      <Button className="sign-in-button" variant="outlined">
         Регистрация
       </Button>
     </div>

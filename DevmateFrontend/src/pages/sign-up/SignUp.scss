@@ -1,0 +1,32 @@
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+  width: 100%;
+}
+.no-acc-link {
+  color: #7141ae;
+  text-decoration: underline;
+}
+.no-acc {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 50px;
+}
+.sign-up-title {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 3rem;
+}
+.sign-up-button {
+  height: 75px;
+  width: 300px;
+  border: 2px solid #000 !important;
+  border-radius: 15px !important;
+  background-color: #a69eb0 !important;
+  color: #000 !important;
+  font-size: 1.5rem !important;
+  text-transform: unset !important;
+}
