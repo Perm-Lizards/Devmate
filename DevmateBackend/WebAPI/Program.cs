@@ -7,7 +7,10 @@ builder.Services.AddCors(options =>
     options.AddDefaultPolicy(policy =>
     {
         var origins = builder.Configuration.GetSection("CORS:AllowOrigins").Get<string[]>();
-        policy.WithOrigins(origins ?? []);
+        policy
+            .WithOrigins(origins ?? [])
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
